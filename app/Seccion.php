@@ -1,0 +1,18 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Seccion extends Model
+{
+    protected $fillable = [
+        'nombre',
+        'posicion',
+        'multiplicador'
+    ];
+
+    public function publicidades(){
+        return $this->hasMany(Publicidad::class);
+    }
+}

@@ -1,0 +1,15 @@
+node_modules/
+.env
+vendor/
+
+.idea/
+
+public/js/app\.js
+
+storage/
+
+composer\.lock
+
+public/\.htaccess copy
+*.lock
+*.env
